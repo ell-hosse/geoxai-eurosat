@@ -1,1 +1,0 @@
-The model likely focused on overall texture/roughness, not specific features.

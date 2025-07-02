@@ -1,1 +1,0 @@
-The model likely focuses on textures and subtle variations in water reflectance, consistent with the "SeaLake" classification.
