@@ -58,7 +58,7 @@ Each row includes:
 
 | Original                                                                         | Grad-CAM | LLM Explanation |
 |----------------------------------------------------------------------------------|----------|-----------------|
-| ![](results/gradcam/original_picked_samples\sample9_true-AnnualCrop_pred-AnnualCrop.png) | ![](results/gradcam/AnnualCrop/sample9_true-AnnualCrop_pred-AnnualCrop.png) | *The model concentrates on the linear, segmented patterns consistent with crop rows and mechanical tillage — visual cues characteristic of annual agricultural fields. This structured spatial regularity supports the correct classification as 'AnnualCrop'.* |
+| ![](results/original_picked_samples/sample9_true-AnnualCrop_pred-AnnualCrop.png) | ![](results/gradcam/AnnualCrop/sample9_true-AnnualCrop_pred-AnnualCrop.png) | *The model concentrates on the linear, segmented patterns consistent with crop rows and mechanical tillage — visual cues characteristic of annual agricultural fields. This structured spatial regularity supports the correct classification as 'AnnualCrop'.* |
 
 ---
 
@@ -66,7 +66,7 @@ Each row includes:
 
 | Original | Grad-CAM | LLM Explanation                                                                                                                                                            |
 |----------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![](results/gradcam/original_picked_samples\sample1_true-HerbaceousVegetation_pred-PermanentCrop.png) | ![](results/gradcam/HerbaceousVegetation/sample1_true-HerbaceousVegetation_pred-PermanentCrop.png) | *The model appears to focus on the repeated, structured vegetation patches that resemble cultivated fields. These regular spatial patterns likely misled the model into predicting 'Permanent Crop' instead of the more naturally distributed textures typically associated with 'Herbaceous Vegetation'.* |
+| ![](results/original_picked_samples/sample1_true-HerbaceousVegetation_pred-PermanentCrop.png) | ![](results/gradcam/HerbaceousVegetation/sample1_true-HerbaceousVegetation_pred-PermanentCrop.png) | *The model appears to focus on the repeated, structured vegetation patches that resemble cultivated fields. These regular spatial patterns likely misled the model into predicting 'Permanent Crop' instead of the more naturally distributed textures typically associated with 'Herbaceous Vegetation'.* |
 
 ---
 
