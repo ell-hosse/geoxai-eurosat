@@ -1,1 +1,1 @@
-Focus on dense, low-lying vegetation patterns.
+Focus on tree canopy density and shape.

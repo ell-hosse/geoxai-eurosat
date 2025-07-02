@@ -1,1 +1,1 @@
-Focus on scattered green patches, likely identifying herbaceous vegetation based on chlorophyll reflectance.
+Focus on green and blue patches representing herbaceous vegetation.
