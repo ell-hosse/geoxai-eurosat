@@ -1,1 +1,1 @@
-Model likely focuses on individual leaf structures, misinterpreting them as herbaceus vegetation instead of persistent crops.
+The model appears to focus on the repeated, structured vegetation patches that resemble cultivated fields. These regular spatial patterns likely misled the model into predicting 'Permanent Crop' instead of the more naturally distributed textures typically associated with 'Herbaceous Vegetation'.

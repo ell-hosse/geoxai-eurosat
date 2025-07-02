@@ -1,1 +1,1 @@
-Focus on elongated, linear patterns – likely identifying crop rows.
+The model concentrates on the linear, segmented patterns consistent with crop rows and mechanical tillage — visual cues characteristic of annual agricultural fields. This structured spatial regularity supports the correct classification as 'AnnualCrop'.
