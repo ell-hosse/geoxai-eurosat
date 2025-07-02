@@ -1,0 +1,1 @@
+Focus on fields and rows, indicating AnnualCrop.
