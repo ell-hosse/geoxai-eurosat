@@ -18,31 +18,6 @@ Then, I used a **multimodal LLM via OpenRouter** to generate human-readable expl
 - 🖼️ 27,000+ RGB images (64×64 pixels)
 - 📁 Used only RGB bands for classification
 
----
-
-## Model Architecture
-
-```
-Input (3×64×64)  
- → Conv2d → ReLU → MaxPool  
- → Conv2d → ReLU → MaxPool  
- → Flatten → FC → Dropout → FC  
- → Output (10 classes)
-```
-
-Built with **PyTorch**, designed to be simple yet effective.
-
----
-
-## Explainability Pipeline
-
-1. **Train CNN** on EuroSAT RGB  
-2. **Apply Grad-CAM** to visualize model attention  
-3. **Send Grad-CAM + metadata** to a multimodal LLM  
-4. **Receive a natural-language explanation** for the model's behavior  
-5. **Display all components**: original image, heatmap, and explanation
-
----
 
 ## Sample Results
 
@@ -68,16 +43,3 @@ Each row includes:
 |----------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![](results/original_picked_samples/sample1_true-HerbaceousVegetation_pred-PermanentCrop.png) | ![](results/gradcam/HerbaceousVegetation/sample1_true-HerbaceousVegetation_pred-PermanentCrop.png) | *The model appears to focus on the repeated, structured vegetation patches that resemble cultivated fields. These regular spatial patterns likely misled the model into predicting 'Permanent Crop' instead of the more naturally distributed textures typically associated with 'Herbaceous Vegetation'.* |
 
----
-
-### 📂 Full Results
-
-You can explore all saved Grad-CAMs and explanations in the [`results/gradcam`](results/gradcam) directory.  
-Each filename includes:
-- `true` label  
-- `predicted` label  
-- matching `.txt` explanation  
-
-Example:\
-sample14_true-HerbaceousVegetation_pred-HerbaceousVegetation.png\
-sample14_true-HerbaceousVegetation_pred-HerbaceousVegetation_explanation.txt
