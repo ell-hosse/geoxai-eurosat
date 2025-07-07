@@ -4,7 +4,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="...",  # replace with your actual key
+    api_key="...",  # replace with your actual key (If you need a key to test this project only, please inform me!)
 )
 
 def extract_labels_from_filename(filename):
